@@ -1,7 +1,7 @@
 name: project_structure
-description: "A new Flutter package project."
+description: "A new Flutter package project that help you to initialize your project structure "
 version: 0.0.1
-homepage:
+homepage: https://github.com/ahmed3ssem/project_structure
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
