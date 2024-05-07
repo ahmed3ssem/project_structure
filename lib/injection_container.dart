@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:project_structure/feature/splash/presentation/cubit/splash_cubit.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'core/api/api_consumer.dart';
 import 'core/api/app_interceptor.dart';
@@ -13,7 +12,7 @@ final sl = GetIt.instance;
 Future<void> init() async{
 
   //Blocs
-  sl.registerFactory(() => SplashCubit());
+  //sl.registerFactory(() => SplashCubit());
 
   //UseCase
   //sl.registerLazySingleton(() => LoginUseCase(loginRepository: sl()));
